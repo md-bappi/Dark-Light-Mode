@@ -4,10 +4,81 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dark & Light Mode</title>
+    <!-- css link -->
     <link rel="stylesheet" href="style.css" />
-    <script src="./script.js"></script>
+    <!-- javascript link -->
+    <script src="./script.js" defer></script>
+    <!-- icon link -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
   </head>
   <body>
-    
+    <div class="box-wrapper">
+      <div class="profile">
+        <div class="imgBx">
+          <img src="./img.jpg" />
+        </div>
+        <h4 class="text">
+          Abu Anas Bappy <br />
+          <span>Creative Designer</span>
+        </h4>
+      </div>
+      <div class="menu">
+        <li>
+          <label>
+            <span class="title"><ion-icon name="wifi"></ion-icon>Wi-Fi</span>
+            <span class="action">
+              <input type="checkbox" id="" /> <i></i>
+            </span>
+          </label>
+        </li>
+        <li>
+          <label>
+            <span class="title"
+              ><ion-icon name="bluetooth"></ion-icon> Bluetooth</span
+            >
+            <span class="action">
+              <input type="checkbox" id="" /> <i></i>
+            </span>
+          </label>
+        </li>
+        <li>
+          <label>
+            <span class="title"
+              ><ion-icon name="airplane"></ion-icon> Airplane Mode</span
+            >
+            <span class="action">
+              <input type="checkbox" id="" /> <i></i>
+            </span>
+          </label>
+        </li>
+        <li>
+          <label>
+            <span class="title">
+              <ion-icon name="location"></ion-icon>Location</span
+            >
+            <span class="action">
+              <input type="checkbox" id="" /> <i></i>
+            </span>
+          </label>
+        </li>
+        <li>
+          <label>
+            <span class="title"
+              ><ion-icon name="moon"></ion-icon> Dark Mode</span
+            >
+            <span class="action">
+              <input type="checkbox" id="dark" /> <i></i>
+            </span>
+          </label>
+        </li>
+      </div>
+    </div>
   </body>
 </html>
